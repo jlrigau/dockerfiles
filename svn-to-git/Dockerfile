@@ -1,6 +1,6 @@
 FROM openjdk:11-jdk
 
-RUN apt-get update && apt-get -y install git subversion libapache2-mod-svn git-svn
+RUN apt-get update && apt-get -y install libapache2-mod-svn git-svn vim
 
 WORKDIR /svn-migration
 
